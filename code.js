@@ -20,19 +20,35 @@ number_2 = 2
 oppretor = /* put add, subtract, multiply, or divide here (put double quotes) */ "add"
 
 if (oppretor == "add") {
-    console.log(add(number_1, number_2) + " is the sum of the two numbers you entered")
+    console.log("Numbers you entered:")
+    console.log("number 1: " + number_1)
+    console.log("number 2: " + number_2)
+    console.log("oppretor: +")
+    console.log(number_1, " + ", number_2, " = ", add(number_1, number_2))
 }
 
 else if (oppretor == "subtract") {
-    console.log(subtract(number_1, number_2) + " is the difference of the two numbers you entered")
+    console.log("Numbers you entered:")
+    console.log("number 1: " + number_1)
+    console.log("number 2: " + number_2)
+    console.log("oppretor: -")
+    console.log(number_1," - ", number_2, "=",  subtract(number_1, number_2))
 }
 
 else if (oppretor == "multiply") {
-    console.log(multiply(number_1, number_2) + " is the product of the two numbers you entered")
+    console.log("Numbers you entered:")
+    console.log("number 1: " + number_1)
+    console.log("number 2: " + number_2)
+    console.log("oppretor: x")
+    console.log(number_1, " x ", number_2, " = ", multiply(number_1, number_2))
 }
 
 else if (oppretor == "divide") {
-   cooole.log(divide(number_1, number_2) + " is the quotient of the two numbers you entered")
+    console.log("Numbers you entered:")
+    console.log("number 1: " + number_1)
+    console.log("number 2: " + number_2)
+    console.log("opretor: /")
+    console.log(number_1, " / ", number_2, " = ", divide(number_1, number_2))
 }
 
 else {
