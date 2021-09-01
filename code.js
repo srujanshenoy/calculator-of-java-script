@@ -1,3 +1,8 @@
+/* put your inputs in the next lines */
+number_1 = 1
+number_2 = 2
+oppretor = /* put add, subtract, multiply, or divide here (put double quotes) */ "add"
+
 function add(a, b) {
     return a + b
 }
@@ -13,11 +18,6 @@ function multiply(a, b) {
 function divide(a, b) {
     return a / b
 }
-
-/* put your inputs in the next lines */
-number_1 = 1
-number_2 = 2
-oppretor = /* put add, subtract, multiply, or divide here (put double quotes) */ "add"
 
 if (oppretor == "add") {
     console.log("Numbers you entered:")
